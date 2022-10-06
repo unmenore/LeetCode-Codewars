@@ -1,6 +1,6 @@
 You have access to a table of monsters as follows:
 
-## Monsters schema
+### Monsters schema
 
 * id
 * name
