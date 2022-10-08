@@ -6,8 +6,8 @@ Return the resulting string.
 
 ### Solution
 ```python
-def count_positives_sum_negatives(arr):
-    return [len([i for i in arr if i > 0]), sum([i for i in arr if i < 0])] if len(arr) !=0 else []
+def fake_bin(x):
+    return ''.join('0' if c < '5' else '1' for c in x)
 ```
 
 ### Simple Solution
